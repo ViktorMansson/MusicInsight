@@ -1,0 +1,71 @@
+# Everything with # will be ignored
+# Top HTML-path = __NEXT_DATA__
+# Start extraction from sub keys: 'genre' & 'results', in json_file stored in __NEXT_DATA__ 
+# In pre_processing_for_postgres.py the Type inforamtion is used. Then it looks for all save_names
+# between ###_INFO - END regardles if line starts with #. # is ignored during json parsing.
+
+#####################################################################################################
+#          	                        Top 100 content    	                                            #
+#                       This have 'genre' as parent key in json file                                #      
+#####################################################################################################
+
+#|   Save Name    |     Parsing instructions       |       Type        |        Extra info          |
+# ----------------------------- Chart specific ------------------------------------------------------
+CHART_INFO:             -                               -               To append to correct dataframe 
+#url:                   Specified when requeast site    -> str          Appended within BeatportParser
+genre_id:               $.id                            -> int
+genre_name:             $.name                          -> str
+sub_genres:             $.sub_genres[*].name            -> list(str)
+sub_genres_id:          $.sub_genres[*].id              -> list(int)
+#song_ids:              -                               -> list(int)    Append when extract music content
+END:                    -                               -                
+
+#####################################################################################################
+#          	                         music_conetent:                                                #
+#                       This have 'results' as parent key in json file                              #  
+#####################################################################################################
+#for an idx: 
+#    idx = 0  -> 1st place, 
+#    idx = 99 -> 100th place
+
+#|   Save Name    |     Parsing instructions       |       Type        |        Extra info          |
+# ----------------------------- Artist specific -----------------------------------------------------
+ARTIST_INFO:            -                               -               To append to correct dataframe 
+artist_id:              $[*].artists[*].id              -> int
+artist_name:            $[*].artists[*].name            -> str    
+artist_picture:         $[*].artists[*].image.uri       -> str
+END:                    -                               -
+
+# ------------------------------ Song specific ------------------------------------------------------
+SONG_INFO:              -                               -               To append to correct dataframe 
+song_id:                $[*].id                         -> int
+song_name:              $[*].name                       -> str          e.g. 'LOVE DESIRE'
+mix_name:               $[*].mix_name                   -> str          e.g. 'Extended Mix'
+aritst_id:              $[*].artists[*].id              -> list[int]    e.g. ['Deepend', 'Avicii']
+remixers_id:            $[*].remixers[*].id             -> list[int]    e.g. ['Rehab']
+album_id:               $[*].release.id                 -> int  
+genre_id:               $[*].genre.id                   -> int  
+sub_genre_id:           $[*].sub_genre                  -> int
+key:                    $[*].key.name                   -> str          e.g. 'E minor'
+bpm:                    $[*].bpm                        -> int
+length:                 $[*].length                     -> str          e.g. '5:45'
+wave_form_picture:      $[*].image.uri                  -> str
+published:              $[*].publish_date               -> str          e.g. '2023-06-09'
+price:                  $[*].price.value                -> float 
+curency:                $[*].price.code                 -> str          e.g. 'EUR'
+END:                    -                               -
+
+# --------------------------------- Album  -----------------------------------------------------------
+ALBUM_INFO:             -                               -               To append to correct dataframe 
+album_id:               $[*].release.id                 -> int 
+publish_name:           $[*].release.name               -> str          e.g. 'Best of...' or 'LOVE DESIRE (Extended Mix)'   
+album_picture:          $[*].release.image.uri          -> str
+END:                    -                               -
+
+# ------------------------------ Record label --------------------------------------------------------
+RECORD_LABEL_INFO:       -                               -               To append to correct dataframe 
+record_label_id:        $[*].release.label.id           -> int  
+record_label_name:      $[*].release.label.name         -> str 
+record_label_picture:   $[*].release.label.image.uri    -> str
+END:                    -                               -
+ 
