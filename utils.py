@@ -26,6 +26,11 @@ def load(filename):
         data = f.read()
     return data
 
+def readlines(filename):
+    with open(filename, 'r') as f:
+        data = f.readlines()
+    return data
+
 def load_json_dict(filename):
     with open(filename, 'r') as f:
         data = json.load(f)

@@ -12,12 +12,12 @@
 #|   Save Name    |     Parsing instructions       |       Type        |        Extra info          |
 # ----------------------------- Chart specific ------------------------------------------------------
 CHART_INFO:             -                               -               To append to correct dataframe 
-#url:                   Specified when requeast site    -> str          Appended within BeatportParser
+#url:                   Specified_when_requeast_site    -> str          Appended within BeatportParser
 genre_id:               $.id                            -> int
 genre_name:             $.name                          -> str
 sub_genres:             $.sub_genres[*].name            -> list(str)
 sub_genres_id:          $.sub_genres[*].id              -> list(int)
-#song_ids:              -                               -> list(int)    Append when extract music content
+#song_ids:              Specified_when_checking_songs   -> list(int)    Append when extract music content
 END:                    -                               -                
 
 #####################################################################################################
@@ -41,8 +41,8 @@ SONG_INFO:              -                               -               To appen
 song_id:                $[*].id                         -> int
 song_name:              $[*].name                       -> str          e.g. 'LOVE DESIRE'
 mix_name:               $[*].mix_name                   -> str          e.g. 'Extended Mix'
-aritst_id:              $[*].artists[*].id              -> list[int]    e.g. ['Deepend', 'Avicii']
-remixers_id:            $[*].remixers[*].id             -> list[int]    e.g. ['Rehab']
+artist_id:              $[*].artists[*].id              -> list(int)    e.g. ['Deepend', 'Avicii']
+remixers_id:            $[*].remixers[*].id             -> list(int)    e.g. ['Rehab']
 album_id:               $[*].release.id                 -> int  
 genre_id:               $[*].genre.id                   -> int  
 sub_genre_id:           $[*].sub_genre                  -> int

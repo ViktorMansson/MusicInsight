@@ -4,7 +4,7 @@
 # need to be splitted into separate fields.
 import os
 import re
-from datetime import datetime
+from utils import readlines
 import config
 import pandas as pd
 
@@ -24,8 +24,9 @@ def split_profiles(df: pd.DataFrame) -> pd.DataFrame:
         [1] artist1, id1, link_to_pic1, date
         [2] artist2, id2, link_to_pic2, date
     """
-    df = df.apply(lambda x: x.str.split(',') if not x.name == 'date' else x) 
-    df['date'] = df.apply(lambda row: [row['date']] * len(row['artist_id']), axis=1)
+    df['date'] = df.apply(
+        lambda row: [row['date']] * len(row['artist_id']) 
+        if isinstance(row['artist_id'], list) else row['date'], axis=1)
 
     exploaded_dfs = []
     for col in df.columns:
@@ -35,30 +36,84 @@ def split_profiles(df: pd.DataFrame) -> pd.DataFrame:
     splitted_df = pd.concat(exploaded_dfs, axis=1)
     return splitted_df
 
+def remove_unessary_lists(df: pd.DataFrame, list_column_names=config.LIST_COLUMN_NAMES) -> pd.DataFrame:
+    for col in df.columns:
+        if col not in list_column_names:
+            df[col] = df[col].apply(lambda x: x[0] if isinstance(x, list) else x)
+    return df
+
 def check_datetime(df: pd.DataFrame) -> pd.DataFrame:
     if 'date' in df.columns:
         df['date'] = df['date'].apply(lambda x: x[0] if isinstance(x, list) else x)
     return df
 
-def assign_correct_type(df: pd.DataFrame) -> pd.DataFrame:
-    # parse beatport_top_100_schema here
-    # TODO 
+def split_df_content(df: pd.DataFrame, delimiter=','):
+    columns = df.columns
+    for col in columns:
+        df[col]= df[col].apply(lambda x: x.split(delimiter) if (isinstance(x, str) and delimiter in x) else [x])
+    return df
+        
+def assign_correct_type(
+        df: pd.DataFrame, 
+        table_name: str, 
+        parsing_intructions: str=config.PARSING_DETAILS_LOCATION+config.PARSING_DETAILS_FILE
+        ) -> pd.DataFrame:
+    
+    instructions = readlines(parsing_intructions)
+
+    correct_table = False
+    for instruction in instructions:
+        if instruction.startswith(table_name):
+            correct_table = True
+            continue
+
+        if instruction.startswith('END') and correct_table:
+            correct_table=False
+            break
+
+        if correct_table:
+            
+            instruction = re.sub('#|:|-|>', ' ', instruction)
+            save_name, _, type = instruction.split()[0:3]
+            b = df[save_name]
+            
+            if table_name == 'ARTIST_INFO':
+                a=0
+                for x in df[save_name].values:
+                    a=config.type_convertion[type](x)
+
+            df[save_name] = df[save_name].apply(
+                lambda x: config.type_convertion[type](x) 
+                if type.startswith('list') 
+                else config.type_convertion[type](x) if x !='None' 
+                else 'None') 
+
     return df
 
 
+# if __name__ == '__main__':
 
-
-paths = [config.DATAFRAME_LOCATION + file for file in os.listdir(config.DATAFRAME_LOCATION)]
+paths = [
+    config.UNPROCESSED_DFS_LOCATION + file 
+    for file in os.listdir(config.UNPROCESSED_DFS_LOCATION)
+]
 
 for path in paths: 
     table_name = re.findall(r'_(\w+_INFO)', path)[0]
+    chart_genre = re.findall(r'(\d+)_\w+_INFO', path)[0]
     
     df = pd.read_pickle(path)
-    
-    df = check_datetime(df)  # maybe not necessary
+
+    df = split_df_content(df)
 
     if table_name == 'ARTIST_INFO':
         df = split_profiles(df)
-        print(df.head())
     
-    df = assign_correct_type(df)
+    df = remove_unessary_lists(df)
+
+    df = assign_correct_type(df, table_name)
+
+    df = check_datetime(df)  
+
+    df.to_pickle(config.PROCESSED_DFS_LOCATION + chart_genre+'_'+table_name+'_df.pkl')
+    df.to_csv(f'csv_checks/{table_name}.csv')

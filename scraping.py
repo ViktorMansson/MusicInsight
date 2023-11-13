@@ -56,7 +56,7 @@ for json_str, keys, url, chart_genre in zip(json_content, json_paths, urls, char
     a=parser.tables.items()
 
     # ----- Save to datafrmes folder ------
-    [df.to_pickle(config.DATAFRAME_LOCATION + chart_genre+'_'+table_name+'_df.pkl') for table_name, df in parser.tables.items()]
+    [df.to_pickle(config.UNPROCESSED_DFS_LOCATION + chart_genre+'_'+table_name+'_df.pkl') for table_name, df in parser.tables.items()]
 
 
 

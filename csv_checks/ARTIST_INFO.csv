@@ -1,101 +1,142 @@
 ,artist_id,artist_name,artist_picture,date
-0,660408,Mochakk,https://geo-media.beatport.com/image_size/590x404/386bde70-2881-41fb-9094-7c261f75ba2c.jpg,2023-11-10
-1,322845,CASSIMM,https://geo-media.beatport.com/image_size/590x404/a7cdfb52-8065-412e-8b17-43417a413d6e.jpg,2023-11-10
-2,"628537,1085148","FISHER (OZ),Aatig","https://geo-media.beatport.com/image_size/590x404/143d36a1-6fd4-43a1-893b-2b29a165d13c.jpg,https://geo-media.beatport.com/image_size/590x404/e03cbd63-59fe-44ea-b7ee-077df567ef50.jpg",2023-11-10
-3,528008,Peggy Gou,https://geo-media.beatport.com/image_size/590x404/3d0696b2-6d2a-4407-8e20-95bc4f6f387f.jpg,2023-11-10
-4,"1938,7043,151058","Mark Knight,Green Velvet,James Hurr","https://geo-media.beatport.com/image_size/590x404/d83f8858-beea-46ce-863f-b6593af456d7.jpg,https://geo-media.beatport.com/image_size/590x404/68882bff-762e-4ed0-81ad-e4ae027a9280.jpg,https://geo-media.beatport.com/image_size/590x404/d3267af5-4c69-4b79-ba73-d9f9779d2024.jpg",2023-11-10
-5,1030326,Arielle Free,https://geo-media.beatport.com/image_size/590x404/b90a9015-0d2f-4d23-b08e-a9a01b1f3195.jpg,2023-11-10
-6,"380949,803395","Life on Planets,Makez","https://geo-media.beatport.com/image_size/590x404/61586a81-3f8c-4582-bae0-e8a993eb732a.jpg,https://geo-media.beatport.com/image_size/590x404/b6a1e3e7-773a-4551-bbbf-00a5d6bc4d11.jpg",2023-11-10
-7,9120,Nic Fanciulli,https://geo-media.beatport.com/image_size/590x404/f93f1ee8-2d7a-4aa2-b488-f40b723afa01.jpg,2023-11-10
-8,"4149,8630","Cajmere,Dajae","https://geo-media.beatport.com/image_size/590x404/367e30ca-7216-469e-853b-278d81d6be93.jpg,https://geo-media.beatport.com/image_size/590x404/8a451ce5-0f20-4c41-a53a-78d21d18c93f.jpg",2023-11-10
-9,42095,Prok & Fitch,https://geo-media.beatport.com/image_size/590x404/a24d9829-a8dd-4a86-8f4b-7302cfd06776.jpg,2023-11-10
-10,220730,Claptone,https://geo-media.beatport.com/image_size/590x404/6cc8a52e-a0f2-4676-9447-0f30261f8d5f.jpg,2023-11-10
-11,"10265,63969,364169","MK,Sonny Fodera,Clementine Douglas","https://geo-media.beatport.com/image_size/590x404/05650c54-9e51-4fde-be3a-9d1a5f11bb50.jpg,https://geo-media.beatport.com/image_size/590x404/80b6cba9-3383-4655-8e18-4375510a8c8c.jpg,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg",2023-11-10
-12,31078,Butch,https://geo-media.beatport.com/image_size/590x404/f6c10b97-da10-4354-aca6-d91ee003115f.jpg,2023-11-10
-13,"498574,1078666","ANOTR,Abel Balder","https://geo-media.beatport.com/image_size/590x404/fffca72e-3db0-40e1-9a01-73056dab9da8.jpg,https://geo-media.beatport.com/image_size/590x404/1c68a715-dd69-4200-b7cf-fb30af925a26.jpg",2023-11-10
-14,700541,Nick Morgan,https://geo-media.beatport.com/image_size/590x404/33ce6edc-d2c3-4701-a676-63819652e0ed.jpg,2023-11-10
-15,"135070,497288","Patrick Prins,Solardo","https://geo-media.beatport.com/image_size/590x404/62ccd2e8-11b0-4422-9a56-e55be93daa4c.jpg,https://geo-media.beatport.com/image_size/590x404/cbe1555c-3bdc-4c38-9cf2-cb0068b7b65f.jpg",2023-11-10
-16,"9120,31078","Nic Fanciulli,Butch","https://geo-media.beatport.com/image_size/590x404/f93f1ee8-2d7a-4aa2-b488-f40b723afa01.jpg,https://geo-media.beatport.com/image_size/590x404/f6c10b97-da10-4354-aca6-d91ee003115f.jpg",2023-11-10
-17,10664,Bob Sinclar,https://geo-media.beatport.com/image_size/590x404/c69fa7c0-be88-41ee-bd8a-09198cf0b9d1.jpg,2023-11-10
-18,46389,Daniel Steinberg,https://geo-media.beatport.com/image_size/590x404/d267a6c8-96b2-4ab5-b423-cd988f71cdaf.jpg,2023-11-10
-19,188921,MD X-Spress,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-10
-20,270,Armand Van Helden,https://geo-media.beatport.com/image_size/590x404/5cc4ec5a-efa1-4b29-b296-e2ef11a2ca0c.jpg,2023-11-10
-21,38194,Stardust,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-10
-22,409267,Ede,https://geo-media.beatport.com/image_size/590x404/6aeeede8-b499-46bb-8026-72877403e9e8.jpg,2023-11-10
-23,864505,LF SYSTEM,https://geo-media.beatport.com/image_size/590x404/29fd0b10-7010-4acc-9ea8-2acbdeaa7abc.jpg,2023-11-10
-24,944039,Gaskin,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-10
-25,660408,Mochakk,https://geo-media.beatport.com/image_size/590x404/386bde70-2881-41fb-9094-7c261f75ba2c.jpg,2023-11-10
-26,727408,Adelphi Music Factory,https://geo-media.beatport.com/image_size/590x404/2cd99d8f-cf76-45a9-ab34-7155d00c60ab.jpg,2023-11-10
-27,42511,Piero Pirupa,https://geo-media.beatport.com/image_size/590x404/c936933e-0946-4c73-9935-a14aeeff18d4.jpg,2023-11-10
-28,322845,CASSIMM,https://geo-media.beatport.com/image_size/590x404/a7cdfb52-8065-412e-8b17-43417a413d6e.jpg,2023-11-10
-29,27044,Jamie Jones,https://geo-media.beatport.com/image_size/590x404/320f4521-f2af-4cfa-b793-8941b68949be.jpg,2023-11-10
-30,"2355,218508","David Penn,KPD","https://geo-media.beatport.com/image_size/590x404/3eac3265-003c-4920-a600-8bd100f0a8a8.jpg,https://geo-media.beatport.com/image_size/590x404/b942fe38-2919-433b-a4f6-00ffcf7ec54d.jpg",2023-11-10
-31,523598,Dombresky,https://geo-media.beatport.com/image_size/590x404/7d9c3851-7d23-41c8-8125-5e3f451a00d2.jpg,2023-11-10
-32,332289,Zsak,https://geo-media.beatport.com/image_size/590x404/0e7d9a40-028b-4e4f-a633-bcef1f8ec711.jpg,2023-11-10
-33,"10664,47613,575840","Bob Sinclar,A-Trak,Mele","https://geo-media.beatport.com/image_size/590x404/c69fa7c0-be88-41ee-bd8a-09198cf0b9d1.jpg,https://geo-media.beatport.com/image_size/590x404/6e936fce-f5c6-4d14-81db-225ec82c34d3.jpg,https://geo-media.beatport.com/image_size/590x404/1719db9d-a0b7-4f71-80dd-394d57f8da1c.jpg",2023-11-10
-34,449919,Wh0,https://geo-media.beatport.com/image_size/590x404/8fdf8642-36f2-4efb-912f-e317f2a4bbf7.jpg,2023-11-10
-35,910806,Matt Guy,https://geo-media.beatport.com/image_size/590x404/bf87ec1f-0f8f-4d2e-8624-217f600d38a3.jpg,2023-11-10
-36,"322845,514985","CASSIMM,Simon Emme","https://geo-media.beatport.com/image_size/590x404/a7cdfb52-8065-412e-8b17-43417a413d6e.jpg,https://geo-media.beatport.com/image_size/590x404/b4153c27-172a-4256-92e1-d87636e224f5.jpg",2023-11-10
-37,45465,Riva Starr,https://geo-media.beatport.com/image_size/590x404/520c2bd7-26b4-48fb-9369-42290870f837.jpg,2023-11-10
-38,47811,Jaded,https://geo-media.beatport.com/image_size/590x404/b0bbb80b-3130-4454-b1f7-f084dba031d5.jpg,2023-11-10
-39,"327720,349390","Low Steppa,Crusy","https://geo-media.beatport.com/image_size/590x404/8e135828-37f0-4624-b087-07894a598821.jpg,https://geo-media.beatport.com/image_size/590x404/a3de4931-a928-419f-bb3b-654eb5b85717.jpg",2023-11-10
-40,270,Armand Van Helden,https://geo-media.beatport.com/image_size/590x404/5cc4ec5a-efa1-4b29-b296-e2ef11a2ca0c.jpg,2023-11-10
-41,375907,Shiba San,https://geo-media.beatport.com/image_size/590x404/97d5a31a-737c-49ac-82e8-e7038bc682b4.jpg,2023-11-10
-42,1077375,Benny Mussa,https://geo-media.beatport.com/image_size/590x404/f3711cc7-9b3c-415b-a757-47eb7fa2c325.jpg,2023-11-10
-43,15270,Bushwacka!,https://geo-media.beatport.com/image_size/590x404/d951e206-759a-463a-adb9-4d88f635755a.jpg,2023-11-10
-44,"22985,86334","Human Resource,Danny Bond","https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,https://geo-media.beatport.com/image_size/590x404/4ba0e135-d644-4e45-9b5e-7862f694ef83.jpg",2023-11-10
-45,"242993,735198","The Blessed Madonna,Jacob Lusk","https://geo-media.beatport.com/image_size/590x404/482ef80b-1694-41f5-9ff3-02426561aa7d.jpg,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg",2023-11-10
-46,"150756,436461","CamelPhat,Elderbrook","https://geo-media.beatport.com/image_size/590x404/165a8a10-a31c-4d72-9e3c-f9f216d3d52b.jpg,https://geo-media.beatport.com/image_size/590x404/204374ac-70c2-4442-9830-b8a4fb92eb62.jpg",2023-11-10
-47,41441,Reboot,https://geo-media.beatport.com/image_size/590x404/435a5ecd-ca43-4e4d-a08e-17569e399662.jpg,2023-11-10
-48,327720,Low Steppa,https://geo-media.beatport.com/image_size/590x404/8e135828-37f0-4624-b087-07894a598821.jpg,2023-11-10
-49,540361,Jorja Smith,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-10
-50,"944039,1128862","Gaskin,L.P. Rhythm","https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,https://geo-media.beatport.com/image_size/590x404/4bad6bd0-8eaa-4075-ab09-ae309d554fff.jpg",2023-11-10
-51,"270,1938","Armand Van Helden,Mark Knight","https://geo-media.beatport.com/image_size/590x404/5cc4ec5a-efa1-4b29-b296-e2ef11a2ca0c.jpg,https://geo-media.beatport.com/image_size/590x404/d83f8858-beea-46ce-863f-b6593af456d7.jpg",2023-11-10
-52,42959,Gabry Venus,https://geo-media.beatport.com/image_size/590x404/1932e30f-c4eb-4a4a-a451-05ef5e0ee35b.jpg,2023-11-10
-53,733293,Tal Fussman,https://geo-media.beatport.com/image_size/590x404/e68370b4-0bc8-47cb-9f8f-f12666e45bba.jpg,2023-11-10
-54,"322845,1121177","CASSIMM,Bruno Blanc","https://geo-media.beatport.com/image_size/590x404/a7cdfb52-8065-412e-8b17-43417a413d6e.jpg,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg",2023-11-10
-55,154648,BLOND:ISH,https://geo-media.beatport.com/image_size/590x404/b3637eb7-50ba-4010-b2dd-717c276451c0.jpg,2023-11-10
-56,864505,LF SYSTEM,https://geo-media.beatport.com/image_size/590x404/29fd0b10-7010-4acc-9ea8-2acbdeaa7abc.jpg,2023-11-10
-57,7505,Michael Gray,https://geo-media.beatport.com/image_size/590x404/8e00db97-8d7d-442a-8b0c-529f9aac36b0.jpg,2023-11-10
-58,522539,James Hype,https://geo-media.beatport.com/image_size/590x404/3bd80382-e580-4a0d-b699-7832854f30e5.jpg,2023-11-10
-59,27044,Jamie Jones,https://geo-media.beatport.com/image_size/590x404/320f4521-f2af-4cfa-b793-8941b68949be.jpg,2023-11-10
-60,"4039,83857,831795","Lee Cabrera,Kevin McKay,Bleech","https://geo-media.beatport.com/image_size/590x404/a56ad212-8893-4333-95b5-cc1a5100bf08.jpg,https://geo-media.beatport.com/image_size/590x404/a4279c21-ef95-4c7d-bf07-4a3d02bad367.jpg,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg",2023-11-10
-61,119180,Lorenzo De Blanck,https://geo-media.beatport.com/image_size/590x404/5ba481d1-621a-4635-b3f3-d551906d8dd8.jpg,2023-11-10
-62,119180,Lorenzo De Blanck,https://geo-media.beatport.com/image_size/590x404/5ba481d1-621a-4635-b3f3-d551906d8dd8.jpg,2023-11-10
-63,4418,Roger Sanchez,https://geo-media.beatport.com/image_size/590x404/4a44a38e-8308-4089-99aa-c7122c025a38.jpg,2023-11-10
-64,20916,Afromento,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-10
-65,"504,3813,27462","DJ Pierre,Paul van Dyk,Phuture","https://geo-media.beatport.com/image_size/590x404/e98007ed-0ef5-4dc1-a97c-973e75a916a9.jpg,https://geo-media.beatport.com/image_size/590x404/d420540f-15df-4261-96ab-b4229c8f4995.jpg,https://geo-media.beatport.com/image_size/590x404/8aca1c3c-b715-470b-b8cb-9c3d09603775.jpg",2023-11-10
-66,"334396,675113","Mattei & Omich,Fatimah Provillon","https://geo-media.beatport.com/image_size/590x404/097bdc4a-b4aa-42ef-ad5e-6720e7c7ef02.jpg,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg",2023-11-10
-67,"286776,755049","Camden Cox,Oden & Fatzo","https://geo-media.beatport.com/image_size/590x404/e59425c9-ba3f-42fa-946a-a72742bea896.jpg,https://geo-media.beatport.com/image_size/590x404/a75ffc47-5d17-4ad3-8f0f-fb175b6cf2ef.jpg",2023-11-10
-68,"2605,45465","Todd Terry,Riva Starr","https://geo-media.beatport.com/image_size/590x404/11343305-0c75-4741-8657-c3936626c8e1.jpg,https://geo-media.beatport.com/image_size/590x404/520c2bd7-26b4-48fb-9369-42290870f837.jpg",2023-11-10
-69,"30928,870878","The Martinez Brothers,Eliza Rose","https://geo-media.beatport.com/image_size/590x404/6a1b11c1-aca9-42f8-a949-36c35a808667.jpg,https://geo-media.beatport.com/image_size/590x404/96216c1e-1420-439b-9233-76e4bc42828a.jpg",2023-11-10
-70,842320,Luke Dean,https://geo-media.beatport.com/image_size/590x404/577730f9-5e7d-4009-9e8a-56a25ae4143b.jpg,2023-11-10
-71,16895,Larse,https://geo-media.beatport.com/image_size/590x404/b0c463f9-4b3b-4bcd-88d2-6e2006927b1b.jpg,2023-11-10
-72,9271,Oliver Dollar,https://geo-media.beatport.com/image_size/590x404/b7da3962-0413-4ab7-8d35-985c43ad0453.jpg,2023-11-10
-73,9120,Nic Fanciulli,https://geo-media.beatport.com/image_size/590x404/f93f1ee8-2d7a-4aa2-b488-f40b723afa01.jpg,2023-11-10
-74,"565752,870878","Interplanetary Criminal,Eliza Rose","https://geo-media.beatport.com/image_size/590x404/68db7c2d-093e-4732-847a-51000f1ffccf.jpg,https://geo-media.beatport.com/image_size/590x404/96216c1e-1420-439b-9233-76e4bc42828a.jpg",2023-11-10
-75,3964,ATFC,https://geo-media.beatport.com/image_size/590x404/1d7ab06c-66fa-4823-9a06-a22eeb0d867a.jpg,2023-11-10
-76,938265,Jake Shore,https://geo-media.beatport.com/image_size/590x404/388ae602-89d2-4c19-98eb-ac81b3bcea5c.jpg,2023-11-10
-77,"10325,21680,21763","Kenny Dope,Louie Vega,Kenlou","https://geo-media.beatport.com/image_size/590x404/9676d87a-1de8-4443-882b-44ce86942a65.jpg,https://geo-media.beatport.com/image_size/590x404/c11316db-4ac6-4c75-879e-5d6b9cbf52fa.jpg,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg",2023-11-10
-78,1043674,Tartan,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-10
-79,"2355,89416,111201","David Penn,Michel Cleis,Toto La Momposina","https://geo-media.beatport.com/image_size/590x404/3eac3265-003c-4920-a600-8bd100f0a8a8.jpg,https://geo-media.beatport.com/image_size/590x404/abbf675e-4f49-4f1c-8db9-52bf12f0e5d6.jpg,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg",2023-11-10
-80,"171,449919","Steve Angello,Wh0","https://geo-media.beatport.com/image_size/590x404/62cf6a7d-b1d9-4dce-95bc-a9397f1772ae.jpg,https://geo-media.beatport.com/image_size/590x404/8fdf8642-36f2-4efb-912f-e317f2a4bbf7.jpg",2023-11-10
-81,121323,Idris Muhammad,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-10
-82,345028,Weiss (UK),https://geo-media.beatport.com/image_size/590x404/29fb3015-9699-4635-ae1a-199e6faa883c.jpg,2023-11-10
-83,111747,Dusty Springfield,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-10
-84,"591831,609337","DJ Seinfeld,Confidence Man","https://geo-media.beatport.com/image_size/590x404/af3e2139-7228-4bcf-89e9-4e71edd87476.jpg,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg",2023-11-10
-85,270,Armand Van Helden,https://geo-media.beatport.com/image_size/590x404/5cc4ec5a-efa1-4b29-b296-e2ef11a2ca0c.jpg,2023-11-10
-86,86976,Hector Couto,https://geo-media.beatport.com/image_size/590x404/5302efa0-f0b8-4ff6-bf91-fa0dbc6f89e0.jpg,2023-11-10
-87,"26777,30027,269158","Samuele Sartini,Umm,Oki Doro","https://geo-media.beatport.com/image_size/590x404/2298357c-c06c-4d40-8264-faef13b1501e.jpg,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,https://geo-media.beatport.com/image_size/590x404/9e0ea7a7-de4e-496a-856c-0e79fe1768c1.jpg",2023-11-10
-88,322845,CASSIMM,https://geo-media.beatport.com/image_size/590x404/a7cdfb52-8065-412e-8b17-43417a413d6e.jpg,2023-11-10
-89,626594,Mason Maynard,https://geo-media.beatport.com/image_size/590x404/ddb4bf54-3fb1-4b9f-bb6d-6bb142c1d1f5.jpg,2023-11-10
-90,34714,Franky Rizardo,https://geo-media.beatport.com/image_size/590x404/c57760b8-f654-4afb-b509-64268015e35c.jpg,2023-11-10
-91,"299281,591029","salute,Sammy Virji","https://geo-media.beatport.com/image_size/590x404/d71556e2-7a6a-44a0-8d5f-248208c405fc.jpg,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg",2023-11-10
-92,2495,Antoine Clamaran,https://geo-media.beatport.com/image_size/590x404/5894d134-b360-451c-bb2a-c0b5a1d22786.jpg,2023-11-10
-93,119180,Lorenzo De Blanck,https://geo-media.beatport.com/image_size/590x404/5ba481d1-621a-4635-b3f3-d551906d8dd8.jpg,2023-11-10
-94,"536593,716514","Jordan Brando,Luke Alessi","https://geo-media.beatport.com/image_size/590x404/e48f0669-ea5c-421a-95bc-c210fc9a7218.jpg,https://geo-media.beatport.com/image_size/590x404/ba68d19f-cf1f-4432-aaf1-3e98d9318be1.jpg",2023-11-10
-95,777587,Jho Roscioli,https://geo-media.beatport.com/image_size/590x404/4d771f64-083f-4e98-9b0a-355eccdc75ae.jpg,2023-11-10
-96,"591831,609337","DJ Seinfeld,Confidence Man","https://geo-media.beatport.com/image_size/590x404/af3e2139-7228-4bcf-89e9-4e71edd87476.jpg,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg",2023-11-10
-97,88809,Harry Romero,https://geo-media.beatport.com/image_size/590x404/2c9ee6e5-ca84-4af1-8b0f-38fd855cd087.jpg,2023-11-10
-98,509143,Jay de Lys,https://geo-media.beatport.com/image_size/590x404/066fd6a3-6c90-498b-a4e5-d5b49dd8ba0b.jpg,2023-11-10
-99,220730,Claptone,https://geo-media.beatport.com/image_size/590x404/6cc8a52e-a0f2-4676-9447-0f30261f8d5f.jpg,2023-11-10
+0,660408,Mochakk,https://geo-media.beatport.com/image_size/590x404/386bde70-2881-41fb-9094-7c261f75ba2c.jpg,2023-11-13
+1,322845,CASSIMM,https://geo-media.beatport.com/image_size/590x404/a7cdfb52-8065-412e-8b17-43417a413d6e.jpg,2023-11-13
+2,628537,FISHER (OZ),https://geo-media.beatport.com/image_size/590x404/143d36a1-6fd4-43a1-893b-2b29a165d13c.jpg,2023-11-13
+3,1085148,Aatig,https://geo-media.beatport.com/image_size/590x404/e03cbd63-59fe-44ea-b7ee-077df567ef50.jpg,2023-11-13
+4,528008,Peggy Gou,https://geo-media.beatport.com/image_size/590x404/3d0696b2-6d2a-4407-8e20-95bc4f6f387f.jpg,2023-11-13
+5,1938,Mark Knight,https://geo-media.beatport.com/image_size/590x404/d83f8858-beea-46ce-863f-b6593af456d7.jpg,2023-11-13
+6,7043,Green Velvet,https://geo-media.beatport.com/image_size/590x404/68882bff-762e-4ed0-81ad-e4ae027a9280.jpg,2023-11-13
+7,151058,James Hurr,https://geo-media.beatport.com/image_size/590x404/d3267af5-4c69-4b79-ba73-d9f9779d2024.jpg,2023-11-13
+8,1030326,Arielle Free,https://geo-media.beatport.com/image_size/590x404/b90a9015-0d2f-4d23-b08e-a9a01b1f3195.jpg,2023-11-13
+9,380949,Life on Planets,https://geo-media.beatport.com/image_size/590x404/61586a81-3f8c-4582-bae0-e8a993eb732a.jpg,2023-11-13
+10,803395,Makez,https://geo-media.beatport.com/image_size/590x404/b6a1e3e7-773a-4551-bbbf-00a5d6bc4d11.jpg,2023-11-13
+11,9120,Nic Fanciulli,https://geo-media.beatport.com/image_size/590x404/f93f1ee8-2d7a-4aa2-b488-f40b723afa01.jpg,2023-11-13
+12,4149,Cajmere,https://geo-media.beatport.com/image_size/590x404/367e30ca-7216-469e-853b-278d81d6be93.jpg,2023-11-13
+13,8630,Dajae,https://geo-media.beatport.com/image_size/590x404/8a451ce5-0f20-4c41-a53a-78d21d18c93f.jpg,2023-11-13
+14,42095,Prok & Fitch,https://geo-media.beatport.com/image_size/590x404/a24d9829-a8dd-4a86-8f4b-7302cfd06776.jpg,2023-11-13
+15,220730,Claptone,https://geo-media.beatport.com/image_size/590x404/6cc8a52e-a0f2-4676-9447-0f30261f8d5f.jpg,2023-11-13
+16,10265,MK,https://geo-media.beatport.com/image_size/590x404/05650c54-9e51-4fde-be3a-9d1a5f11bb50.jpg,2023-11-13
+17,63969,Sonny Fodera,https://geo-media.beatport.com/image_size/590x404/80b6cba9-3383-4655-8e18-4375510a8c8c.jpg,2023-11-13
+18,364169,Clementine Douglas,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+19,31078,Butch,https://geo-media.beatport.com/image_size/590x404/f6c10b97-da10-4354-aca6-d91ee003115f.jpg,2023-11-13
+20,498574,ANOTR,https://geo-media.beatport.com/image_size/590x404/fffca72e-3db0-40e1-9a01-73056dab9da8.jpg,2023-11-13
+21,1078666,Abel Balder,https://geo-media.beatport.com/image_size/590x404/1c68a715-dd69-4200-b7cf-fb30af925a26.jpg,2023-11-13
+22,700541,Nick Morgan,https://geo-media.beatport.com/image_size/590x404/33ce6edc-d2c3-4701-a676-63819652e0ed.jpg,2023-11-13
+23,135070,Patrick Prins,https://geo-media.beatport.com/image_size/590x404/62ccd2e8-11b0-4422-9a56-e55be93daa4c.jpg,2023-11-13
+24,497288,Solardo,https://geo-media.beatport.com/image_size/590x404/cbe1555c-3bdc-4c38-9cf2-cb0068b7b65f.jpg,2023-11-13
+25,9120,Nic Fanciulli,https://geo-media.beatport.com/image_size/590x404/f93f1ee8-2d7a-4aa2-b488-f40b723afa01.jpg,2023-11-13
+26,31078,Butch,https://geo-media.beatport.com/image_size/590x404/f6c10b97-da10-4354-aca6-d91ee003115f.jpg,2023-11-13
+27,10664,Bob Sinclar,https://geo-media.beatport.com/image_size/590x404/c69fa7c0-be88-41ee-bd8a-09198cf0b9d1.jpg,2023-11-13
+28,46389,Daniel Steinberg,https://geo-media.beatport.com/image_size/590x404/d267a6c8-96b2-4ab5-b423-cd988f71cdaf.jpg,2023-11-13
+29,188921,MD X-Spress,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+30,270,Armand Van Helden,https://geo-media.beatport.com/image_size/590x404/5cc4ec5a-efa1-4b29-b296-e2ef11a2ca0c.jpg,2023-11-13
+31,38194,Stardust,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+32,409267,Ede,https://geo-media.beatport.com/image_size/590x404/6aeeede8-b499-46bb-8026-72877403e9e8.jpg,2023-11-13
+33,864505,LF SYSTEM,https://geo-media.beatport.com/image_size/590x404/29fd0b10-7010-4acc-9ea8-2acbdeaa7abc.jpg,2023-11-13
+34,944039,Gaskin,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+35,660408,Mochakk,https://geo-media.beatport.com/image_size/590x404/386bde70-2881-41fb-9094-7c261f75ba2c.jpg,2023-11-13
+36,727408,Adelphi Music Factory,https://geo-media.beatport.com/image_size/590x404/2cd99d8f-cf76-45a9-ab34-7155d00c60ab.jpg,2023-11-13
+37,42511,Piero Pirupa,https://geo-media.beatport.com/image_size/590x404/c936933e-0946-4c73-9935-a14aeeff18d4.jpg,2023-11-13
+38,322845,CASSIMM,https://geo-media.beatport.com/image_size/590x404/a7cdfb52-8065-412e-8b17-43417a413d6e.jpg,2023-11-13
+39,27044,Jamie Jones,https://geo-media.beatport.com/image_size/590x404/320f4521-f2af-4cfa-b793-8941b68949be.jpg,2023-11-13
+40,2355,David Penn,https://geo-media.beatport.com/image_size/590x404/3eac3265-003c-4920-a600-8bd100f0a8a8.jpg,2023-11-13
+41,218508,KPD,https://geo-media.beatport.com/image_size/590x404/b942fe38-2919-433b-a4f6-00ffcf7ec54d.jpg,2023-11-13
+42,523598,Dombresky,https://geo-media.beatport.com/image_size/590x404/7d9c3851-7d23-41c8-8125-5e3f451a00d2.jpg,2023-11-13
+43,332289,Zsak,https://geo-media.beatport.com/image_size/590x404/0e7d9a40-028b-4e4f-a633-bcef1f8ec711.jpg,2023-11-13
+44,10664,Bob Sinclar,https://geo-media.beatport.com/image_size/590x404/c69fa7c0-be88-41ee-bd8a-09198cf0b9d1.jpg,2023-11-13
+45,47613,A-Trak,https://geo-media.beatport.com/image_size/590x404/6e936fce-f5c6-4d14-81db-225ec82c34d3.jpg,2023-11-13
+46,575840,Mele,https://geo-media.beatport.com/image_size/590x404/1719db9d-a0b7-4f71-80dd-394d57f8da1c.jpg,2023-11-13
+47,449919,Wh0,https://geo-media.beatport.com/image_size/590x404/8fdf8642-36f2-4efb-912f-e317f2a4bbf7.jpg,2023-11-13
+48,910806,Matt Guy,https://geo-media.beatport.com/image_size/590x404/bf87ec1f-0f8f-4d2e-8624-217f600d38a3.jpg,2023-11-13
+49,322845,CASSIMM,https://geo-media.beatport.com/image_size/590x404/a7cdfb52-8065-412e-8b17-43417a413d6e.jpg,2023-11-13
+50,514985,Simon Emme,https://geo-media.beatport.com/image_size/590x404/b4153c27-172a-4256-92e1-d87636e224f5.jpg,2023-11-13
+51,45465,Riva Starr,https://geo-media.beatport.com/image_size/590x404/520c2bd7-26b4-48fb-9369-42290870f837.jpg,2023-11-13
+52,47811,Jaded,https://geo-media.beatport.com/image_size/590x404/b0bbb80b-3130-4454-b1f7-f084dba031d5.jpg,2023-11-13
+53,327720,Low Steppa,https://geo-media.beatport.com/image_size/590x404/8e135828-37f0-4624-b087-07894a598821.jpg,2023-11-13
+54,349390,Crusy,https://geo-media.beatport.com/image_size/590x404/a3de4931-a928-419f-bb3b-654eb5b85717.jpg,2023-11-13
+55,270,Armand Van Helden,https://geo-media.beatport.com/image_size/590x404/5cc4ec5a-efa1-4b29-b296-e2ef11a2ca0c.jpg,2023-11-13
+56,375907,Shiba San,https://geo-media.beatport.com/image_size/590x404/97d5a31a-737c-49ac-82e8-e7038bc682b4.jpg,2023-11-13
+57,1077375,Benny Mussa,https://geo-media.beatport.com/image_size/590x404/f3711cc7-9b3c-415b-a757-47eb7fa2c325.jpg,2023-11-13
+58,15270,Bushwacka!,https://geo-media.beatport.com/image_size/590x404/d951e206-759a-463a-adb9-4d88f635755a.jpg,2023-11-13
+59,22985,Human Resource,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+60,86334,Danny Bond,https://geo-media.beatport.com/image_size/590x404/4ba0e135-d644-4e45-9b5e-7862f694ef83.jpg,2023-11-13
+61,242993,The Blessed Madonna,https://geo-media.beatport.com/image_size/590x404/482ef80b-1694-41f5-9ff3-02426561aa7d.jpg,2023-11-13
+62,735198,Jacob Lusk,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+63,150756,CamelPhat,https://geo-media.beatport.com/image_size/590x404/165a8a10-a31c-4d72-9e3c-f9f216d3d52b.jpg,2023-11-13
+64,436461,Elderbrook,https://geo-media.beatport.com/image_size/590x404/204374ac-70c2-4442-9830-b8a4fb92eb62.jpg,2023-11-13
+65,41441,Reboot,https://geo-media.beatport.com/image_size/590x404/435a5ecd-ca43-4e4d-a08e-17569e399662.jpg,2023-11-13
+66,327720,Low Steppa,https://geo-media.beatport.com/image_size/590x404/8e135828-37f0-4624-b087-07894a598821.jpg,2023-11-13
+67,540361,Jorja Smith,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+68,944039,Gaskin,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+69,1128862,L.P. Rhythm,https://geo-media.beatport.com/image_size/590x404/4bad6bd0-8eaa-4075-ab09-ae309d554fff.jpg,2023-11-13
+70,270,Armand Van Helden,https://geo-media.beatport.com/image_size/590x404/5cc4ec5a-efa1-4b29-b296-e2ef11a2ca0c.jpg,2023-11-13
+71,1938,Mark Knight,https://geo-media.beatport.com/image_size/590x404/d83f8858-beea-46ce-863f-b6593af456d7.jpg,2023-11-13
+72,42959,Gabry Venus,https://geo-media.beatport.com/image_size/590x404/1932e30f-c4eb-4a4a-a451-05ef5e0ee35b.jpg,2023-11-13
+73,733293,Tal Fussman,https://geo-media.beatport.com/image_size/590x404/e68370b4-0bc8-47cb-9f8f-f12666e45bba.jpg,2023-11-13
+74,322845,CASSIMM,https://geo-media.beatport.com/image_size/590x404/a7cdfb52-8065-412e-8b17-43417a413d6e.jpg,2023-11-13
+75,1121177,Bruno Blanc,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+76,154648,BLOND:ISH,https://geo-media.beatport.com/image_size/590x404/b3637eb7-50ba-4010-b2dd-717c276451c0.jpg,2023-11-13
+77,864505,LF SYSTEM,https://geo-media.beatport.com/image_size/590x404/29fd0b10-7010-4acc-9ea8-2acbdeaa7abc.jpg,2023-11-13
+78,7505,Michael Gray,https://geo-media.beatport.com/image_size/590x404/8e00db97-8d7d-442a-8b0c-529f9aac36b0.jpg,2023-11-13
+79,522539,James Hype,https://geo-media.beatport.com/image_size/590x404/3bd80382-e580-4a0d-b699-7832854f30e5.jpg,2023-11-13
+80,27044,Jamie Jones,https://geo-media.beatport.com/image_size/590x404/320f4521-f2af-4cfa-b793-8941b68949be.jpg,2023-11-13
+81,4039,Lee Cabrera,https://geo-media.beatport.com/image_size/590x404/a56ad212-8893-4333-95b5-cc1a5100bf08.jpg,2023-11-13
+82,83857,Kevin McKay,https://geo-media.beatport.com/image_size/590x404/a4279c21-ef95-4c7d-bf07-4a3d02bad367.jpg,2023-11-13
+83,831795,Bleech,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+84,119180,Lorenzo De Blanck,https://geo-media.beatport.com/image_size/590x404/5ba481d1-621a-4635-b3f3-d551906d8dd8.jpg,2023-11-13
+85,119180,Lorenzo De Blanck,https://geo-media.beatport.com/image_size/590x404/5ba481d1-621a-4635-b3f3-d551906d8dd8.jpg,2023-11-13
+86,4418,Roger Sanchez,https://geo-media.beatport.com/image_size/590x404/4a44a38e-8308-4089-99aa-c7122c025a38.jpg,2023-11-13
+87,20916,Afromento,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+88,504,DJ Pierre,https://geo-media.beatport.com/image_size/590x404/e98007ed-0ef5-4dc1-a97c-973e75a916a9.jpg,2023-11-13
+89,3813,Paul van Dyk,https://geo-media.beatport.com/image_size/590x404/d420540f-15df-4261-96ab-b4229c8f4995.jpg,2023-11-13
+90,27462,Phuture,https://geo-media.beatport.com/image_size/590x404/8aca1c3c-b715-470b-b8cb-9c3d09603775.jpg,2023-11-13
+91,334396,Mattei & Omich,https://geo-media.beatport.com/image_size/590x404/097bdc4a-b4aa-42ef-ad5e-6720e7c7ef02.jpg,2023-11-13
+92,675113,Fatimah Provillon,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+93,286776,Camden Cox,https://geo-media.beatport.com/image_size/590x404/e59425c9-ba3f-42fa-946a-a72742bea896.jpg,2023-11-13
+94,755049,Oden & Fatzo,https://geo-media.beatport.com/image_size/590x404/a75ffc47-5d17-4ad3-8f0f-fb175b6cf2ef.jpg,2023-11-13
+95,2605,Todd Terry,https://geo-media.beatport.com/image_size/590x404/11343305-0c75-4741-8657-c3936626c8e1.jpg,2023-11-13
+96,45465,Riva Starr,https://geo-media.beatport.com/image_size/590x404/520c2bd7-26b4-48fb-9369-42290870f837.jpg,2023-11-13
+97,30928,The Martinez Brothers,https://geo-media.beatport.com/image_size/590x404/6a1b11c1-aca9-42f8-a949-36c35a808667.jpg,2023-11-13
+98,870878,Eliza Rose,https://geo-media.beatport.com/image_size/590x404/96216c1e-1420-439b-9233-76e4bc42828a.jpg,2023-11-13
+99,842320,Luke Dean,https://geo-media.beatport.com/image_size/590x404/577730f9-5e7d-4009-9e8a-56a25ae4143b.jpg,2023-11-13
+100,16895,Larse,https://geo-media.beatport.com/image_size/590x404/b0c463f9-4b3b-4bcd-88d2-6e2006927b1b.jpg,2023-11-13
+101,9271,Oliver Dollar,https://geo-media.beatport.com/image_size/590x404/b7da3962-0413-4ab7-8d35-985c43ad0453.jpg,2023-11-13
+102,9120,Nic Fanciulli,https://geo-media.beatport.com/image_size/590x404/f93f1ee8-2d7a-4aa2-b488-f40b723afa01.jpg,2023-11-13
+103,565752,Interplanetary Criminal,https://geo-media.beatport.com/image_size/590x404/68db7c2d-093e-4732-847a-51000f1ffccf.jpg,2023-11-13
+104,870878,Eliza Rose,https://geo-media.beatport.com/image_size/590x404/96216c1e-1420-439b-9233-76e4bc42828a.jpg,2023-11-13
+105,3964,ATFC,https://geo-media.beatport.com/image_size/590x404/1d7ab06c-66fa-4823-9a06-a22eeb0d867a.jpg,2023-11-13
+106,938265,Jake Shore,https://geo-media.beatport.com/image_size/590x404/388ae602-89d2-4c19-98eb-ac81b3bcea5c.jpg,2023-11-13
+107,10325,Kenny Dope,https://geo-media.beatport.com/image_size/590x404/9676d87a-1de8-4443-882b-44ce86942a65.jpg,2023-11-13
+108,21680,Louie Vega,https://geo-media.beatport.com/image_size/590x404/c11316db-4ac6-4c75-879e-5d6b9cbf52fa.jpg,2023-11-13
+109,21763,Kenlou,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+110,1043674,Tartan,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+111,2355,David Penn,https://geo-media.beatport.com/image_size/590x404/3eac3265-003c-4920-a600-8bd100f0a8a8.jpg,2023-11-13
+112,89416,Michel Cleis,https://geo-media.beatport.com/image_size/590x404/abbf675e-4f49-4f1c-8db9-52bf12f0e5d6.jpg,2023-11-13
+113,111201,Toto La Momposina,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+114,171,Steve Angello,https://geo-media.beatport.com/image_size/590x404/62cf6a7d-b1d9-4dce-95bc-a9397f1772ae.jpg,2023-11-13
+115,449919,Wh0,https://geo-media.beatport.com/image_size/590x404/8fdf8642-36f2-4efb-912f-e317f2a4bbf7.jpg,2023-11-13
+116,121323,Idris Muhammad,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+117,345028,Weiss (UK),https://geo-media.beatport.com/image_size/590x404/29fb3015-9699-4635-ae1a-199e6faa883c.jpg,2023-11-13
+118,111747,Dusty Springfield,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+119,591831,DJ Seinfeld,https://geo-media.beatport.com/image_size/590x404/af3e2139-7228-4bcf-89e9-4e71edd87476.jpg,2023-11-13
+120,609337,Confidence Man,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+121,270,Armand Van Helden,https://geo-media.beatport.com/image_size/590x404/5cc4ec5a-efa1-4b29-b296-e2ef11a2ca0c.jpg,2023-11-13
+122,86976,Hector Couto,https://geo-media.beatport.com/image_size/590x404/5302efa0-f0b8-4ff6-bf91-fa0dbc6f89e0.jpg,2023-11-13
+123,26777,Samuele Sartini,https://geo-media.beatport.com/image_size/590x404/2298357c-c06c-4d40-8264-faef13b1501e.jpg,2023-11-13
+124,30027,Umm,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+125,269158,Oki Doro,https://geo-media.beatport.com/image_size/590x404/9e0ea7a7-de4e-496a-856c-0e79fe1768c1.jpg,2023-11-13
+126,322845,CASSIMM,https://geo-media.beatport.com/image_size/590x404/a7cdfb52-8065-412e-8b17-43417a413d6e.jpg,2023-11-13
+127,626594,Mason Maynard,https://geo-media.beatport.com/image_size/590x404/ddb4bf54-3fb1-4b9f-bb6d-6bb142c1d1f5.jpg,2023-11-13
+128,34714,Franky Rizardo,https://geo-media.beatport.com/image_size/590x404/c57760b8-f654-4afb-b509-64268015e35c.jpg,2023-11-13
+129,299281,salute,https://geo-media.beatport.com/image_size/590x404/d71556e2-7a6a-44a0-8d5f-248208c405fc.jpg,2023-11-13
+130,591029,Sammy Virji,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+131,2495,Antoine Clamaran,https://geo-media.beatport.com/image_size/590x404/5894d134-b360-451c-bb2a-c0b5a1d22786.jpg,2023-11-13
+132,119180,Lorenzo De Blanck,https://geo-media.beatport.com/image_size/590x404/5ba481d1-621a-4635-b3f3-d551906d8dd8.jpg,2023-11-13
+133,536593,Jordan Brando,https://geo-media.beatport.com/image_size/590x404/e48f0669-ea5c-421a-95bc-c210fc9a7218.jpg,2023-11-13
+134,716514,Luke Alessi,https://geo-media.beatport.com/image_size/590x404/ba68d19f-cf1f-4432-aaf1-3e98d9318be1.jpg,2023-11-13
+135,777587,Jho Roscioli,https://geo-media.beatport.com/image_size/590x404/4d771f64-083f-4e98-9b0a-355eccdc75ae.jpg,2023-11-13
+136,591831,DJ Seinfeld,https://geo-media.beatport.com/image_size/590x404/af3e2139-7228-4bcf-89e9-4e71edd87476.jpg,2023-11-13
+137,609337,Confidence Man,https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg,2023-11-13
+138,88809,Harry Romero,https://geo-media.beatport.com/image_size/590x404/2c9ee6e5-ca84-4af1-8b0f-38fd855cd087.jpg,2023-11-13
+139,509143,Jay de Lys,https://geo-media.beatport.com/image_size/590x404/066fd6a3-6c90-498b-a4e5-d5b49dd8ba0b.jpg,2023-11-13
+140,220730,Claptone,https://geo-media.beatport.com/image_size/590x404/6cc8a52e-a0f2-4676-9447-0f30261f8d5f.jpg,2023-11-13

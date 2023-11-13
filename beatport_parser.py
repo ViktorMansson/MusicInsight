@@ -5,6 +5,7 @@ from jsonpath_rw import parse
 from copy import deepcopy
 import datetime
 import re
+
 class BeatportParser:
     """
     This class relies on a json-str from Beatports html-content.
