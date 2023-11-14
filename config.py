@@ -21,6 +21,28 @@ LIST_COLUMN_NAMES = [
 ]
 
 
+pd_table_primary_key = {
+    'ALBUM_INFO': 'album_id',
+    'ARTIST_INFO': 'artist_id',
+    'CHART_INFO': None,
+    'RECORD_LABEL_INFO': 'record_label_id',
+    'SONG_INFO': 'song_id',
+    'GENRE_INFO': 'genre_id'
+}
+
+df_to_sql_name = {
+    'ALBUM_INFO': 'Album',
+    'ARTIST_INFO': 'Artist',
+    'CHART_INFO': 'Top100',
+    'RECORD_LABEL_INFO': 'RecordLabel',
+    'SONG_INFO': 'Song',
+    'GENRE_INFO': 'Genre'
+}
+
+sql_to_df_name = {v: k for k, v in df_to_sql_name.items()}
+
+
+
 # ----------- Files -----------
 PARSING_DETAILS_FILE = 'beatport_top_100_schema.txt'
 

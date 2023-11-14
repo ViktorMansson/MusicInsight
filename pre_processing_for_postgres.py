@@ -90,6 +90,11 @@ def assign_correct_type(
 
     return df
 
+def drop_duplicates(df: pd.DataFrame, table_name:str) -> pd.DataFrame:
+    primary_key = config.pd_table_primary_key[table_name]
+    if primary_key:
+        df = df.drop_duplicates(subset=primary_key)
+    return df
 
 # if __name__ == '__main__':
 
@@ -114,6 +119,8 @@ for path in paths:
     df = assign_correct_type(df, table_name)
 
     df = check_datetime(df)  
+
+    df = drop_duplicates(df, table_name)
 
     df.to_pickle(config.PROCESSED_DFS_LOCATION + chart_genre+'_'+table_name+'_df.pkl')
     df.to_csv(f'csv_checks/{table_name}.csv')
