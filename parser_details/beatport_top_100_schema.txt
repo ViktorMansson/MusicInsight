@@ -18,6 +18,13 @@ genre_name:             $.name                          -> str
 sub_genres:             $.sub_genres[*].name            -> list(str)
 sub_genres_id:          $.sub_genres[*].id              -> list(int)
 #song_ids:              Specified_when_checking_songs   -> list(int)    Append when extract music content
+END:                    -                               -     
+
+# ----------------------------- Genre specific ------------------------------------------------------
+GENRE_INFO:             -                               -               To append to correct dataframe 
+genre_id:               $.id                            -> int
+genre_name:             $.name                          -> str
+sub_genres_id:          $.sub_genres[*].id              -> list(int)
 END:                    -                               -                
 
 #####################################################################################################

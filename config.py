@@ -12,6 +12,7 @@ type_convertion={
     'list(float)': lambda x: [float(item) if not 'None' else item for item in x]
 }
 
+# chart specific list variable
 LIST_COLUMN_NAMES = [
     'sub_genres',
     'sub_genres_id',
@@ -55,6 +56,3 @@ PROCESSED_DFS_LOCATION = path + '/processed_dfs/'
 
 # ------ BeatportParser --------
 DATE_FORMAT = '%Y-%m-%d'
-
-
-'/Users/viktormansson/Programming_projects/project/dataframes/5_LABEL_ARTIST_INFO_df.pkl'

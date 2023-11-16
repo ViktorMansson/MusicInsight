@@ -40,6 +40,16 @@ class BeatportParser:
                 'song_ids'  # ordered from 1-100
             ]
         )
+
+        # Genre 
+        self.genre_info = pd.DataFrame(
+            columns=[
+                'genre_id',
+                'genre_name',
+                'sub_genres_id',
+                'date'
+            ]
+        )
         
         # Artist 
         self.artist_info = pd.DataFrame(
@@ -97,6 +107,7 @@ class BeatportParser:
         # this table dict holds all info!
         self.tables ={
             'CHART_INFO': self.chart_info,
+            'GENRE_INFO': self.genre_info,
             'ARTIST_INFO': self.artist_info,
             'SONG_INFO': self.song_info,
             'ALBUM_INFO': self.album_info,
@@ -155,6 +166,9 @@ class BeatportParser:
             
             table_df = deepcopy(pd.DataFrame(dictionary))
             self.tables[table_name] = pd.concat([self.tables[table_name], table_df], ignore_index=True)
+        
+        else:
+            print('ERROR in table {table_name}, Not valid table.')
     
     # ------------- Parsing methods ----------------
     def _parse_sub_content(self, content, instructions):
@@ -236,16 +250,19 @@ class BeatportParser:
                     table_name = save_name
                     infos = []
                     
-                    if table_name == 'CHART_INFO':
+                    if table_name in ['CHART_INFO', 'GENRE_INFO']:
                         current_content = relevant_content['genre']
-                        infos.append([self.scraping_url])
                     else:
                         current_content = relevant_content['results']
+
+                    if table_name  == 'CHART_INFO':
+                        infos.append([self.scraping_url])
+
                     continue
 
                 # parse according to instructions 
                 info = self._parse_content(instr, current_content)
-                if table_name == 'CHART_INFO':
+                if table_name in ['CHART_INFO', 'GENRE_INFO']:
                     if (len(info) >1):
                         info = [','.join([str(i) for i in info])]
 

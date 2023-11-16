@@ -96,31 +96,35 @@ def drop_duplicates(df: pd.DataFrame, table_name:str) -> pd.DataFrame:
         df = df.drop_duplicates(subset=primary_key)
     return df
 
-# if __name__ == '__main__':
 
-paths = [
-    config.UNPROCESSED_DFS_LOCATION + file 
-    for file in os.listdir(config.UNPROCESSED_DFS_LOCATION)
-]
+def main():
+    paths = [
+        config.UNPROCESSED_DFS_LOCATION + file 
+        for file in os.listdir(config.UNPROCESSED_DFS_LOCATION)
+    ]
 
-for path in paths: 
-    table_name = re.findall(r'_(\w+_INFO)', path)[0]
-    chart_genre = re.findall(r'(\d+)_\w+_INFO', path)[0]
-    
-    df = pd.read_pickle(path)
+    for path in paths: 
+        table_name = re.findall(r'_(\w+_INFO)', path)[0]
+        chart_genre = re.findall(r'(\d+)_\w+_INFO', path)[0]
+        
+        df = pd.read_pickle(path)
 
-    df = split_df_content(df)
+        df = split_df_content(df)
 
-    if table_name == 'ARTIST_INFO':
-        df = split_profiles(df)
-    
-    df = remove_unessary_lists(df)
+        if table_name == 'ARTIST_INFO':
+            df = split_profiles(df)
+        
+        df = remove_unessary_lists(df)
 
-    df = assign_correct_type(df, table_name)
+        df = assign_correct_type(df, table_name)
 
-    df = check_datetime(df)  
+        df = check_datetime(df)  
 
-    df = drop_duplicates(df, table_name)
+        df = drop_duplicates(df, table_name)
 
-    df.to_pickle(config.PROCESSED_DFS_LOCATION + chart_genre+'_'+table_name+'_df.pkl')
-    df.to_csv(f'csv_checks/{table_name}.csv')
+        df.to_pickle(config.PROCESSED_DFS_LOCATION + chart_genre+'_'+table_name+'_df.pkl')
+        df.to_csv(f'csv_checks/{table_name}.csv')
+
+
+if __name__ == '__main__':
+    main()
