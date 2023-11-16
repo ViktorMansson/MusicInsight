@@ -3,10 +3,12 @@ from utils import *
 from beatport_parser import BeatportParser
 
 def main():
-    # ------------- Load ------------------
+    # ------------- Load Scraping details  ------------------
     json_config = load_json_dict(config.SCRAPING_DETAILS_LOCATION + 'json_config.json')
     urls = [url for url in json_config['urls'].keys()]
-
+    chart_genres = [json_config['urls'][url]['chart_genre'] for url in urls]
+    json_paths = [json_config['urls'][url]['json_paths'] for url in urls]
+    
     # ------------ Fetching ---------------
     fetcher = AsyncronousFetcher(urls)
 
@@ -28,10 +30,10 @@ def main():
     config_extractor = JsonExtractor(json_config)
     json_paths = [config_extractor.get_content_from_key('json_paths')]
     """
+    # --- Used for debugging ---
     json_content = [load_json_dict(config.SCRAPING_DETAILS_LOCATION + 'content.json')]
-    json_paths = [["genre", 'results']]
-    urls = ["https://www.beatport.com/genre/house/5/top-100"]
-    chart_genres = ['5']
+    # --------------------------
+
     # -------------- Parsing --------------
     for json_str, keys, url, chart_genre in zip(json_content, json_paths, urls, chart_genres):
         #json_dict = json.loads(json_str)
