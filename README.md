@@ -6,7 +6,7 @@ This rpository is in process...
 
 ## main.py
 Runs: 
-1. <h1 style="color:purple;">Scraping beatport</h1>: **scraping.py**
+1. @@Scraping beatport@@: **scraping.py**
 2. Pre-processing: **pre_processing_for_postgres.py**
 3. Adding data to tables in postgres: **pandas_to_sql.py**
 
