@@ -6,7 +6,7 @@ This rpository is in process...
 
 ## main.py
 Runs: 
-1. craping beatport: **scraping.py**
+1. Scraping beatport: **scraping.py**
 2. Pre-processing: **pre_processing_for_postgres.py**
 3. Adding data to tables in postgres: **pandas_to_sql.py**
 
@@ -22,3 +22,6 @@ Correct types and structure, according to **beatport_top_100_schema.txt**, to pr
 
 ## pandas_to_sql.py
 Get credentials to start connections to database and then insert each dataframes to its specific table.
+
+## utils.py
+Containing helping functions as well as the class **AsyncronousFetcher** that handle the scraping. 
