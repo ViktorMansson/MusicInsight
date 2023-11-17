@@ -12,8 +12,8 @@ Runs:
 
 ## scraping.py 
 Collecting data from Beatports top 100 charts and store in dataframes. 
-1. Scraping instructions: Using **json_config.json**, which defines where to scraping-urls and json-details. Located in scraping_details/json_config.json
-2. Parsing instructions: Using the parsing schema **beatport_top_100_schema.txt** to extract relevant information from json-file collected from html-file. Located in parser_details/beatport_top_100_schema.txt
+1. Scraping instructions: Using **json_config.json**, which defines where to scraping-urls and json-details. Located in **scraping_details/json_config.json**
+2. Parsing instructions: Using the parsing schema **beatport_top_100_schema.txt** to extract relevant information from json-file collected from html-file. Located in **parser_details/beatport_top_100_schema.txt**
 3. Parsing: Using the class BeatportParser in **beatport_parser.py** to extract and store relevant information for each table.
 4. Storing: Save each table information do pandas dataframes. 
 
