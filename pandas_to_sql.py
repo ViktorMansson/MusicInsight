@@ -4,13 +4,15 @@ import config
 import pandas as pd
 import os
 import re
+from dotenv import load_dotenv
 
 def get_db_credentials():
+    load_dotenv()
     db_username = os.environ.get('DB_USERNAME')
     db_host = os.environ.get('DB_HOST')
     db_port = os.environ.get('DB_PORT')
     db_name = os.environ.get('DB_NAME')
-    db_password = input(f'Please type pasword for user {db_username}: ')
+    db_password = os.environ.get('DB_PASSWORD')
     return db_username, db_host, db_port, db_name, db_password
 
 def create_DB_engine(db_username:str, db_host:str, db_port:str, db_name:str, db_password:str):
