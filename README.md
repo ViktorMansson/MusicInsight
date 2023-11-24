@@ -2,8 +2,8 @@
 Collecting data from Beatport to gain information about trending house tracks. 
 
 > [!NOTE]
-This repository is in process...
-In process: Data insights
+This repository is in process...<br>
+In process: Data insights<br>
 Upcoming: Establish web page
 
 ## main.py
